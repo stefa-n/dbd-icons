@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import PackCard from "../components/PackCard";
 
 export default function Home() {
@@ -9,10 +8,10 @@ export default function Home() {
         <title>Dead by Daylight Icons</title>
         <meta name="description" content="DbD-Icons" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <Link rel="icon" href="/favicon.png" />
-        <Link rel="preconnect" href="https://fonts.googleapis.com" />
-        <Link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true' />
-        <Link
+        <link rel="icon" href="/favicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='true' />
+        <link
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
           rel="stylesheet"
         />
@@ -40,8 +39,8 @@ export default function Home() {
             justifyItems: 'center'
           }}
         >
-          <PackCard title={"Hyrelia's Celestial Pack"} author={"Joewb + Hyrelia"} preview={"/packs/Joewb1-Hyrelia-Hyrelia_s_Celestial_Pack/preview.png"} download={"/packs/Joewb1-Hyrelia-Hyrelia_s_Celestial_Pack/pack.rar"}/>
-          <PackCard title={"Simple Border (Colored)"} author={"EvaZioNe"} preview={"/packs/EvaZioNe-Simple_Border_Colored/preview.png"} download={"/packs/EvaZioNe-Simple_Border_Colored/pack.rar"}/>
+          <PackCard title={"Hyrelia's Celestial Pack"} author={"Joewb + Hyrelia"} preview={"/Joewb1-Hyrelia-Hyrelia_s_Celestial_Pack/preview.png"} download={"/Joewb1-Hyrelia-Hyrelia_s_Celestial_Pack/pack.rar"}/>
+          <PackCard title={"Simple Border (Colored)"} author={"EvaZioNe"} preview={"/EvaZioNe-Simple_Border_Colored/preview.png"} download={"/EvaZioNe-Simple_Border_Colored/pack.rar"}/>
         </div>
       </div>
     </>
