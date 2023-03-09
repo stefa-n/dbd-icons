@@ -8,7 +8,7 @@ export default function PackCard({ title, author, preview, download }) {
       <Link href={download}>
         <div className={styles.card}>
           <Image
-            src={require(`../public${preview}`)}
+            src={preview}
             alt="Preview"
             width={512}
             height={128}
