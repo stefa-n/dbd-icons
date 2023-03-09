@@ -40,8 +40,8 @@ export default function Home() {
             justifyItems: 'center'
           }}
         >
-          <PackCard title="Hyrelia's Celestial Pack" author="Joewb + Hyrelia" preview={"/packs/Joewb1-Hyrelia-Hyrelia_s_Celestial_Pack/preview.png"} download={"/packs/Joewb1-Hyrelia-Hyrelia_s_Celestial_Pack/pack.rar"}/>
-          <PackCard title="Simple Border (Colored)" author="EvaZioNe" preview={"/packs/EvaZioNe-Simple_Border_Colored/preview.png"} download={"/packs/EvaZioNe-Simple_Border_Colored/pack.rar"}/>
+          <PackCard title={"Hyrelia's Celestial Pack"} author={"Joewb + Hyrelia"} preview={"/packs/Joewb1-Hyrelia-Hyrelia_s_Celestial_Pack/preview.png"} download={"/packs/Joewb1-Hyrelia-Hyrelia_s_Celestial_Pack/pack.rar"}/>
+          <PackCard title={"Simple Border (Colored)"} author={"EvaZioNe"} preview={"/packs/EvaZioNe-Simple_Border_Colored/preview.png"} download={"/packs/EvaZioNe-Simple_Border_Colored/pack.rar"}/>
         </div>
       </div>
     </>
