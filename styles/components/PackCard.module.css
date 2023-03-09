@@ -1,0 +1,21 @@
+.card {
+    width: 27vw;
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    backdrop-filter: blur(18px) saturate(22%);
+    -webkit-backdrop-filter: blur(18px) saturate(22%);
+    background-color: rgba(23, 23, 27, 0.25);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+    transition: background-color 0.2s;
+}
+
+.card:hover {
+    background-color: rgba(23, 23, 27, 0.75);
+}
